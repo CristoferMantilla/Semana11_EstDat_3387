@@ -26,6 +26,9 @@ namespace Ejercucion
             int placa=int.Parse(Console.ReadLine());
             ab.Buscar(placa);
             ab.Dibujar();
+            Console.Write("Ingrese una placa a buscar: ");
+            int plac = int.Parse(Console.ReadLine());
+            ab.Buscar(plac);
         }
     }
 }
